@@ -12,6 +12,7 @@
 		C063E5262199F8DC00501BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C063E5242199F8DC00501BD5 /* Main.storyboard */; };
 		C063E5282199F8DC00501BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C063E5272199F8DC00501BD5 /* Assets.xcassets */; };
 		C063E52B2199F8DC00501BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C063E5292199F8DC00501BD5 /* LaunchScreen.storyboard */; };
+		C0EE65F2219F31BF00599D35 /* MapForltinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE65F0219F31BF00599D35 /* MapForltinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C063E5272199F8DC00501BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C063E52A2199F8DC00501BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C063E52C2199F8DC00501BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EE65F1219F31BF00599D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/MapForltinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C063E5202199F8DC00501BD5 /* AppDelegate.swift */,
 				C063E5222199F8DC00501BD5 /* ViewController.swift */,
+				C0EE65F0219F31BF00599D35 /* MapForltinerary.swift */,
 				C063E5242199F8DC00501BD5 /* Main.storyboard */,
 				C063E5272199F8DC00501BD5 /* Assets.xcassets */,
 				C063E5292199F8DC00501BD5 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				C063E5232199F8DC00501BD5 /* ViewController.swift in Sources */,
 				C063E5212199F8DC00501BD5 /* AppDelegate.swift in Sources */,
+				C0EE65F2219F31BF00599D35 /* MapForltinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +161,14 @@
 				C063E52A2199F8DC00501BD5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C0EE65F0219F31BF00599D35 /* MapForltinerary.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EE65F1219F31BF00599D35 /* Base */,
+			);
+			name = MapForltinerary.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
