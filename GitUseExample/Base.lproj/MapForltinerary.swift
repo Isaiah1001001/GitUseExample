@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+func sayHello()
+{
+    print("Hello from MapForItinerary")
+}
+
